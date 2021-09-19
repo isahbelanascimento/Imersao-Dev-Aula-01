@@ -13,6 +13,6 @@ prompt("Sua média final é " + Media)
  if (Media => 6) {
    prompt("Você foi aprovado(a)!")
  }
- else if (Media <= 5) {
+ else if (Media =< 5) {
     prompt("Você está de recuperação!")
  }
